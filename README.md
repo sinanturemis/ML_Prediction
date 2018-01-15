@@ -26,17 +26,25 @@ Prediction Application for Restaurants.
 ### Class Diagrams
 
 #### Business_Managers
+
 <br />
+
 ![Business_Managers](SolutionItems/ClassDiagrams/Business_Managers.png)
 
 #### DataAccess_Repository
+
 <br />
+
 ![DataAccess_Repository](SolutionItems/ClassDiagrams/DataAccess_Repository.png)
 
 #### DataAccess_Entities
+
 <br />
+
 ![DataAccess_Entities](SolutionItems/ClassDiagrams/DataAccess_Entities.png)
 
 #### Common_Project
+
 <br />
+
 ![Common_Project](SolutionItems/ClassDiagrams/Common_Project.png)
