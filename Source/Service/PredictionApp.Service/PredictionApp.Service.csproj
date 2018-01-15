@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E203417E-1680-45E0-A55D-0707AA177EA7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PredictionApp.Service</RootNamespace>
+    <AssemblyName>PredictionApp.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Config\Settings.cs" />
+    <Compile Include="Models\DTO\CustomerDTO.cs" />
+    <Compile Include="Models\DTO\FoodDTO.cs" />
+    <Compile Include="Models\DTO\FoodRecipeDTO.cs" />
+    <Compile Include="Models\DTO\GiveProductOrderDTO.cs" />
+    <Compile Include="Models\DTO\ProductDTO.cs" />
+    <Compile Include="Models\DTO\ProductStockTransactionDTO.cs" />
+    <Compile Include="Models\DTO\ProvideProductOrderDTO.cs" />
+    <Compile Include="Models\DTO\RestaurantDTO.cs" />
+    <Compile Include="Models\DTO\RestaurantProductMappingDTO.cs" />
+    <Compile Include="Models\DTO\StaffDTO.cs" />
+    <Compile Include="Models\DTO\SupplierDTO.cs" />
+    <Compile Include="Models\DTO\TableDTO.cs" />
+    <Compile Include="Models\Messages\Base\RequestBase.cs" />
+    <Compile Include="Models\Messages\Base\ResponseBase.cs" />
+    <Compile Include="Models\Messages\CreateCustomer\CreateCustomerRequest.cs" />
+    <Compile Include="Models\Messages\CreateCustomer\CreateCustomerResponse.cs" />
+    <Compile Include="Models\Messages\CreateFood\CreateFoodRequest.cs" />
+    <Compile Include="Models\Messages\CreateFood\CreateFoodResponse.cs" />
+    <Compile Include="Models\Messages\CreateLeaveTransaction\CreateLeaveTransactionRequest.cs" />
+    <Compile Include="Models\Messages\CreateLeaveTransaction\CreateLeaveTransactionResponse.cs" />
+    <Compile Include="Models\Messages\CreateProduct\CreateProductRequest.cs" />
+    <Compile Include="Models\Messages\CreateProduct\CreateProductResponse.cs" />
+    <Compile Include="Models\Messages\CreateRestaurantProductMapping\CreateRestaurantProductMappingRequest.cs" />
+    <Compile Include="Models\Messages\CreateRestaurantProductMapping\CreateRestaurantProductMappingResponse.cs" />
+    <Compile Include="Models\Messages\CreateRestaurant\CreateRestaurantRequest.cs" />
+    <Compile Include="Models\Messages\CreateRestaurant\CreateRestaurantResponse.cs" />
+    <Compile Include="Models\Messages\CreateStaff\CreateStaffRequest.cs" />
+    <Compile Include="Models\Messages\CreateStaff\CreateStaffResponse.cs" />
+    <Compile Include="Models\Messages\CreateSupplier\CreateSupplierRequest.cs" />
+    <Compile Include="Models\Messages\CreateSupplier\CreateSupplierResponse.cs" />
+    <Compile Include="Models\Messages\CreateVisitTransaction\CreateVisitTransactionRequest.cs" />
+    <Compile Include="Models\Messages\CreateVisitTransaction\CreateVisitTransactionResponse.cs" />
+    <Compile Include="Models\Messages\UpdateCustomer\UpdateCustomerRequest.cs" />
+    <Compile Include="Models\Messages\GetCustomers\GetCustomerRequest.cs" />
+    <Compile Include="Models\Messages\GetCustomers\GetCustomerResponse.cs" />
+    <Compile Include="Models\Messages\GetLatestStockTransactions\GetLatestStockTransactionsRequest.cs" />
+    <Compile Include="Models\Messages\GetLatestStockTransactions\GetLatestStockTransactionsResponse.cs" />
+    <Compile Include="Models\Messages\GetProducts\GetProductsRequest.cs" />
+    <Compile Include="Models\Messages\GetProducts\GetProductsResponse.cs" />
+    <Compile Include="Models\Messages\GetRestaurantProductMapping\GetRestaurantProductMappingRequest.cs" />
+    <Compile Include="Models\Messages\GetRestaurantProductMapping\GetRestaurantProductMappingResponse.cs" />
+    <Compile Include="Models\Messages\GetRestaurantsBySupplyDayOfWeek\GetRestaurantsBySupplyDayOfWeekRequest.cs" />
+    <Compile Include="Models\Messages\GetRestaurantsBySupplyDayOfWeek\GetRestaurantsBySupplyDayOfWeekResponse.cs" />
+    <Compile Include="Models\Messages\GetRestaurant\GetRestaurantRequest.cs" />
+    <Compile Include="Models\Messages\GetRestaurant\GetRestaurantResponse.cs" />
+    <Compile Include="Models\Messages\GetStaff\GetStaffRequest.cs" />
+    <Compile Include="Models\Messages\GetStaff\GetStaffResponse.cs" />
+    <Compile Include="Models\Messages\GetSupplier\GetSupplierRequest.cs" />
+    <Compile Include="Models\Messages\GetSupplier\GetSupplierResponse.cs" />
+    <Compile Include="Models\Messages\GiveOrder\GiveProductOrderRequest.cs" />
+    <Compile Include="Models\Messages\GiveOrder\GiveProductOrderResponse.cs" />
+    <Compile Include="Models\Messages\ProvideProductOrder\ProvideProductOrderRequest.cs" />
+    <Compile Include="Models\Messages\ProvideProductOrder\ProvideProductOrderResponse.cs" />
+    <Compile Include="Models\Messages\UpdateCustomer\UpdateCustomerResponse.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Base\ServiceBase.cs" />
+    <Compile Include="Services\Impls\CustomerService.cs" />
+    <Compile Include="Services\Impls\FoodService.cs" />
+    <Compile Include="Services\Impls\ProductService.cs" />
+    <Compile Include="Services\Impls\RestaurantService.cs" />
+    <Compile Include="Services\Impls\StaffService.cs" />
+    <Compile Include="Services\Impls\SupplierService.cs" />
+    <Compile Include="Services\Impls\SupplyService.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\PredictionApp.Common\PredictionApp.Common.csproj">
+      <Project>{cb07c1fe-fcda-46ec-8756-3a7b8fcb04b7}</Project>
+      <Name>PredictionApp.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Repository\PredictionApp.Repository\PredictionApp.Repository.csproj">
+      <Project>{2b2e15a7-94c9-43b8-8acc-1b362e59c152}</Project>
+      <Name>PredictionApp.Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

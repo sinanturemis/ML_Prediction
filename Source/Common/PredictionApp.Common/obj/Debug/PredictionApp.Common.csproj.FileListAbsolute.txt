@@ -1,0 +1,10 @@
+C:\Users\sturemis\Desktop\Prediction\PredictionApp\Source\Common\PredictionApp.Common\bin\Debug\PredictionApp.Common.dll
+C:\Users\sturemis\Desktop\Prediction\PredictionApp\Source\Common\PredictionApp.Common\bin\Debug\PredictionApp.Common.pdb
+C:\Users\sturemis\Desktop\Prediction\PredictionApp\Source\Common\PredictionApp.Common\obj\Debug\PredictionApp.Common.csprojResolveAssemblyReference.cache
+C:\Users\sturemis\Desktop\Prediction\PredictionApp\Source\Common\PredictionApp.Common\obj\Debug\PredictionApp.Common.dll
+C:\Users\sturemis\Desktop\Prediction\PredictionApp\Source\Common\PredictionApp.Common\obj\Debug\PredictionApp.Common.pdb
+C:\Projects\Prediction\Source\Common\PredictionApp.Common\bin\Debug\PredictionApp.Common.dll
+C:\Projects\Prediction\Source\Common\PredictionApp.Common\bin\Debug\PredictionApp.Common.pdb
+C:\Projects\Prediction\Source\Common\PredictionApp.Common\obj\Debug\PredictionApp.Common.csprojResolveAssemblyReference.cache
+C:\Projects\Prediction\Source\Common\PredictionApp.Common\obj\Debug\PredictionApp.Common.dll
+C:\Projects\Prediction\Source\Common\PredictionApp.Common\obj\Debug\PredictionApp.Common.pdb

@@ -1,0 +1,14 @@
+C:\Users\sturemis\Desktop\Prediction\PredictionApp\Source\Repository\PredictionApp.Repository\bin\Debug\PredictionApp.Repository.dll
+C:\Users\sturemis\Desktop\Prediction\PredictionApp\Source\Repository\PredictionApp.Repository\bin\Debug\PredictionApp.Repository.pdb
+C:\Users\sturemis\Desktop\Prediction\PredictionApp\Source\Repository\PredictionApp.Repository\bin\Debug\Dapper.dll
+C:\Users\sturemis\Desktop\Prediction\PredictionApp\Source\Repository\PredictionApp.Repository\bin\Debug\Dapper.xml
+C:\Users\sturemis\Desktop\Prediction\PredictionApp\Source\Repository\PredictionApp.Repository\obj\Debug\PredictionApp.Repository.dll
+C:\Users\sturemis\Desktop\Prediction\PredictionApp\Source\Repository\PredictionApp.Repository\obj\Debug\PredictionApp.Repository.pdb
+C:\Users\sturemis\Desktop\Prediction\PredictionApp\Source\Repository\PredictionApp.Repository\obj\Debug\PredictionApp.Repository.csprojResolveAssemblyReference.cache
+C:\Projects\Prediction\Source\Repository\PredictionApp.Repository\bin\Debug\PredictionApp.Repository.dll
+C:\Projects\Prediction\Source\Repository\PredictionApp.Repository\bin\Debug\PredictionApp.Repository.pdb
+C:\Projects\Prediction\Source\Repository\PredictionApp.Repository\bin\Debug\Dapper.dll
+C:\Projects\Prediction\Source\Repository\PredictionApp.Repository\bin\Debug\Dapper.xml
+C:\Projects\Prediction\Source\Repository\PredictionApp.Repository\obj\Debug\PredictionApp.Repository.csprojResolveAssemblyReference.cache
+C:\Projects\Prediction\Source\Repository\PredictionApp.Repository\obj\Debug\PredictionApp.Repository.dll
+C:\Projects\Prediction\Source\Repository\PredictionApp.Repository\obj\Debug\PredictionApp.Repository.pdb

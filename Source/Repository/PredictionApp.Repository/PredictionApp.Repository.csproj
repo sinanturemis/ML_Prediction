@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2B2E15A7-94C9-43B8-8ACC-1B362E59C152}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PredictionApp.Repository</RootNamespace>
+    <AssemblyName>PredictionApp.Repository</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=1.50.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Dapper.1.50.4\lib\net451\Dapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entity\CustomerEntity.cs" />
+    <Compile Include="Entity\CustomerVisitTransactionEntity.cs" />
+    <Compile Include="Entity\FoodEntity.cs" />
+    <Compile Include="Entity\FoodRecipeEntity.cs" />
+    <Compile Include="Entity\Interfaces\IEntity.cs" />
+    <Compile Include="Entity\ProductEntity.cs" />
+    <Compile Include="Entity\ProductStockTransactionEntity.cs" />
+    <Compile Include="Entity\RestaurantEntity.cs" />
+    <Compile Include="Entity\RestaurantProductMappingEntity.cs" />
+    <Compile Include="Entity\SellTransactionEntity.cs" />
+    <Compile Include="Entity\StaffEntity.cs" />
+    <Compile Include="Entity\SupplierEntity.cs" />
+    <Compile Include="Entity\SupplyTransactionEntity.cs" />
+    <Compile Include="Entity\TableEntity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\Base\DBRepositoryBase.cs" />
+    <Compile Include="Repositories\Impls\CustomerRepository.cs" />
+    <Compile Include="Repositories\Impls\CustomerVisitTransactionRepository.cs" />
+    <Compile Include="Repositories\Impls\FoodRecipeRepository.cs" />
+    <Compile Include="Repositories\Impls\FoodRepository.cs" />
+    <Compile Include="Repositories\Impls\ProductRepository.cs" />
+    <Compile Include="Repositories\Impls\ProductStockTransactionRepository.cs" />
+    <Compile Include="Repositories\Impls\RestaurantProductMappingRepository.cs" />
+    <Compile Include="Repositories\Impls\RestaurantRepository.cs" />
+    <Compile Include="Repositories\Impls\SellTransactionRepository.cs" />
+    <Compile Include="Repositories\Impls\StaffRepository.cs" />
+    <Compile Include="Repositories\Impls\SupplierRepository.cs" />
+    <Compile Include="Repositories\Impls\SupplyTransactionRepository.cs" />
+    <Compile Include="Repositories\Impls\TableRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IRepository.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
