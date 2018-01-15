@@ -29,8 +29,6 @@ namespace PredictionApp.Presentation.Console.DataGeneration
                 StockManager stockManager = new StockManager(restaurantService, productService, staffService, supplyService);
 
 
-
-
                 restaurantManager.GenerateRestaurants(settings.GenerationCounts.RestaurantsCount);
                 supplierManager.GenerateSuppliers(settings.GenerationCounts.SuppliersCount);
                 customerManager.GenerateCustomers(settings.GenerationCounts.CustomersCount);

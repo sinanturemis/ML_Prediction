@@ -22,7 +22,7 @@ namespace PredictionApp.Repository
         {
             using (var connection = CreateConnection())
             {
-                string query = @"INSERT INTO [COLLECTION].[TABLE]([ID],[RestaurantID],[MaxCapacity],[Status]) VALUES(@ID,@RestaurantID,@MaxCapacity,@Status)";
+                string query = @"INSERT INTO [COLLECTION].[TABLE]([ID],[RestaurantID],[MaxCapacity]) VALUES(@ID,@RestaurantID,@MaxCapacity)";
                 connection.Execute(query, entities);
             }
         }

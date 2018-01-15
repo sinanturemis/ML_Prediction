@@ -67,9 +67,7 @@ namespace PredictionApp.Service
                 ID = x.ID,
                 Name = x.Name,
                 SupplierID = x.SupplierID,
-                UnitPrice = x.UnitPrice,
-                ExpectedUnitsInStock = x.ExpectedUnitsInStock,
-                UpdateDateTime = x.UpdateDateTime
+                UnitPrice = x.UnitPrice
             }).ToList();
 
             //Create new db transactions

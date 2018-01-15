@@ -35,7 +35,7 @@ namespace PredictionApp.Repository
         {
             using (var connection = CreateConnection())
             {
-                string query = @"INSERT INTO [COLLECTION].[PRODUCT]([ID],[Name],[ExpectedUnitsInStock],[UnitPrice],[SupplierID]) VALUES(@ID,@Name,@ExpectedUnitsInStock,@UnitPrice,@SupplierID)";
+                string query = @"INSERT INTO [COLLECTION].[PRODUCT]([ID],[Name],[UnitPrice],[SupplierID]) VALUES(@ID,@Name,@UnitPrice,@SupplierID)";
                 connection.Execute(query, entities);
             }
         }

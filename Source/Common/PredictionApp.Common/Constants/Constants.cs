@@ -52,6 +52,11 @@
             public const int Min = 15;
             public const int Max = 1000;
         }
+        public static class ProductUnitPrice
+        {
+            public const int Min = 1;
+            public const int Max = 5000;
+        }
         public static class SameProductAmountInFood
         {
             public const int Min = 1;

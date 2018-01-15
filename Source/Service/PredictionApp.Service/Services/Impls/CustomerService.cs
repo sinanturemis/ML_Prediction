@@ -98,7 +98,6 @@ namespace PredictionApp.Service
             {
                 ID = Guid.NewGuid(),
                 CustomerID = customerId,
-                RestaurantID = request.RestaurantID,
                 ReservationID = request.ReservationID,
                 DateIn = request.DateIn
             }).ToList();

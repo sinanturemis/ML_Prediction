@@ -27,7 +27,7 @@ namespace PredictionApp.Repository
         {
             using (var connection = CreateConnection())
             {
-                string query = @"INSERT INTO [TRANSACTION].[CUSTOMER_VISIT_TRANSACTION]([ID],[ReservationID],[RestaurantID],[CustomerID],[DateIn]) VALUES(@ID,@ReservationID,@RestaurantID,@CustomerID,@DateIn)";
+                string query = @"INSERT INTO [TRANSACTION].[CUSTOMER_VISIT_TRANSACTION]([ID],[ReservationID],[CustomerID],[DateIn]) VALUES(@ID,@ReservationID,@CustomerID,@DateIn)";
                 var result = connection.Execute(query, entities);
             }
         }

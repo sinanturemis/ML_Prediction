@@ -94,8 +94,7 @@ namespace PredictionApp.Service
             {
                 ID = table.ID,
                 RestaurantID = table.RestaurantID,
-                MaxCapacity = table.MaxCapacity,
-                Status = table.Status
+                MaxCapacity = table.MaxCapacity
             });
 
             //Create new db transaction

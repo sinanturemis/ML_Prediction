@@ -220,8 +220,6 @@ namespace PredictionApp.Presentation.Console.DataGeneration
         /// <returns>instance of TableDTO</returns>
         private List<TableDTO> GenerateTables(Guid restaurantId)
         {
-            var tableStatusCount = Enum.GetNames(typeof(TableStatus)).Length;
-
             var tableCountOfCurrentRestaurant = (new Random()).Next(1, Constants.MaxTableCountInRestaurant);
             List<TableDTO> tables = new List<TableDTO>(tableCountOfCurrentRestaurant);
 
@@ -232,8 +230,7 @@ namespace PredictionApp.Presentation.Console.DataGeneration
                 {
                     ID = Guid.NewGuid(),
                     RestaurantID = restaurantId,
-                    MaxCapacity = (byte)RandomHelper.RandomInteger(byte.MinValue, byte.MaxValue),
-                    Status = (byte)RandomHelper.RandomInteger(0, tableStatusCount)
+                    MaxCapacity = (byte)RandomHelper.RandomInteger(byte.MinValue, byte.MaxValue)
                 });
                 addingTableCounter++;
             }

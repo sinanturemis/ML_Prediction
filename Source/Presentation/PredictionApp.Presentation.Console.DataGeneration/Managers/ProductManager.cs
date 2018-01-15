@@ -1,4 +1,5 @@
-﻿using PredictionApp.Common.Helpers;
+﻿using PredictionApp.Common;
+using PredictionApp.Common.Helpers;
 using PredictionApp.Service;
 using System;
 using System.Collections.Generic;
@@ -81,9 +82,9 @@ namespace PredictionApp.Presentation.Console.DataGeneration
                 ID = Guid.NewGuid(),
                 SupplierID = suppliers[supplierIndex].ID,
                 Name = RandomHelper.RandomString(10),
-                UnitPrice = RandomHelper.RandomDouble(0, 5000),
-                ExpectedUnitsInStock = RandomHelper.RandomInteger(1, 500)
+                UnitPrice = RandomHelper.RandomDouble(Constants.ProductUnitPrice.Min, Constants.ProductUnitPrice.Max)
             };
+
         }
 
         #endregion Helpers

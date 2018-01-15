@@ -7,6 +7,5 @@ namespace PredictionApp.Repository
         public Guid ID { get; set; }
         public Guid RestaurantID { get; set; }
         public byte MaxCapacity { get; set; }
-        public byte Status { get; set; }
     }
 }
