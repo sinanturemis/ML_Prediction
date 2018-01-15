@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PredictionApp.Repository.DbRepositoryBase&lt;T&gt;">
+    <Position X="5.75" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Base\DBRepositoryBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PredictionApp.Repository.CustomerRepository">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="PredictionApp.Repository.DbRepositoryBase&lt;T&gt;" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.625" Y="4" />
+        <Point X="6.625" Y="2.831" />
+        <Point X="1.25" Y="2.831" />
+        <Point X="1.25" Y="2.502" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAABAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Impls\CustomerRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.CustomerVisitTransactionRepository">
+    <Position X="0.5" Y="3.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Repositories\Impls\CustomerVisitTransactionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.FoodRecipeRepository">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="PredictionApp.Repository.DbRepositoryBase&lt;T&gt;" ManuallyRouted="true">
+      <Path>
+        <Point X="6.625" Y="4" />
+        <Point X="6.625" Y="2.831" />
+        <Point X="3" Y="2.831" />
+        <Point X="3" Y="1.925" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Impls\FoodRecipeRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.FoodRepository">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="PredictionApp.Repository.DbRepositoryBase&lt;T&gt;" ManuallyRouted="true">
+      <Path>
+        <Point X="6.625" Y="4" />
+        <Point X="6.625" Y="2.809" />
+        <Point X="4.75" Y="2.809" />
+        <Point X="4.75" Y="1.925" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Impls\FoodRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.ProductRepository">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Impls\ProductRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.ProductStockTransactionRepository">
+    <Position X="8" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Repositories\Impls\ProductStockTransactionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.RestaurantProductMappingRepository">
+    <Position X="11.5" Y="0.5" Width="3.25" />
+    <InheritanceLine Type="PredictionApp.Repository.DbRepositoryBase&lt;T&gt;" ManuallyRouted="true">
+      <Path>
+        <Point X="6.625" Y="4" />
+        <Point X="6.625" Y="2.791" />
+        <Point X="13.125" Y="2.791" />
+        <Point X="13.125" Y="2.117" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Impls\RestaurantProductMappingRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.RestaurantRepository">
+    <Position X="11.5" Y="3" Width="2.25" />
+    <InheritanceLine Type="PredictionApp.Repository.DbRepositoryBase&lt;T&gt;" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.312" Y="4" />
+        <Point X="7.312" Y="3.25" />
+        <Point X="11.5" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAABAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Impls\RestaurantRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.SellTransactionRepository">
+    <Position X="11.75" Y="5.5" Width="2.5" />
+    <InheritanceLine Type="PredictionApp.Repository.DbRepositoryBase&lt;T&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="6.625" Y="5.747" />
+        <Point X="6.625" Y="6.125" />
+        <Point X="11.75" Y="6.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Impls\SellTransactionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.StaffRepository">
+    <Position X="8.75" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Impls\StaffRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.SupplierRepository">
+    <Position X="5.75" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Impls\SupplierRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.SupplyTransactionRepository">
+    <Position X="2.5" Y="6.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Impls\SupplyTransactionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.TableRepository" Collapsed="true">
+    <Position X="8.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Impls\TableRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="PredictionApp.Repository.IRepository&lt;TEntity&gt;">
+    <Position X="0.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Interfaces\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

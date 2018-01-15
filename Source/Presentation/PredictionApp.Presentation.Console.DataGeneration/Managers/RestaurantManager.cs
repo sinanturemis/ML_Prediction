@@ -220,7 +220,7 @@ namespace PredictionApp.Presentation.Console.DataGeneration
         /// <returns>instance of TableDTO</returns>
         private List<TableDTO> GenerateTables(Guid restaurantId)
         {
-            var tableCountOfCurrentRestaurant = (new Random()).Next(1, Constants.MaxTableCountInRestaurant);
+            var tableCountOfCurrentRestaurant = (new Random()).Next(Constants.TableCountInRestaurant.Min, Constants.TableCountInRestaurant.Max);
             List<TableDTO> tables = new List<TableDTO>(tableCountOfCurrentRestaurant);
 
             var addingTableCounter = default(int);

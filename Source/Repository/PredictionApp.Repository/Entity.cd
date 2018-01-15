@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PredictionApp.Repository.CustomerEntity">
+    <Position X="0.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACEAAgAAgAMAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\CustomerEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.CustomerVisitTransactionEntity">
+    <Position X="8.5" Y="13.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAgEAAAAAgAAAAAAAACAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\CustomerVisitTransactionEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.FoodEntity">
+    <Position X="16.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\FoodEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.FoodRecipeEntity">
+    <Position X="22" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\FoodRecipeEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.IEntity">
+    <Position X="15.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\Interfaces\IEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.ProductEntity">
+    <Position X="29" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Entity\ProductEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.ProductStockTransactionEntity">
+    <Position X="2.75" Y="13.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAIAAAAAAAAAAAAAAAAAAAAAAIAAAAIEAAAAAAA=</HashCode>
+      <FileName>Entity\ProductStockTransactionEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.RestaurantEntity">
+    <Position X="11.75" Y="13.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAEAAgAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\RestaurantEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.RestaurantProductMappingEntity">
+    <Position X="18.75" Y="13.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Entity\RestaurantProductMappingEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.SellTransactionEntity">
+    <Position X="24.25" Y="13.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAkgAAAAAAQAAAQAAgAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Entity\SellTransactionEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.StaffEntity">
+    <Position X="26.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\StaffEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.SupplierEntity">
+    <Position X="31.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAgAAAEAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\SupplierEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.SupplyTransactionEntity">
+    <Position X="5.75" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAggAAAAAAAACAwAAAAAAAAAAEAgAAAAA=</HashCode>
+      <FileName>Entity\SupplyTransactionEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Repository.TableEntity">
+    <Position X="14.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAEAIAAAAA=</HashCode>
+      <FileName>Entity\TableEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

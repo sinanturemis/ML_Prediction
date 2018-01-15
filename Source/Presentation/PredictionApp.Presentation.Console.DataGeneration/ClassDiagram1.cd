@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="PredictionApp.Presentation.Console.DataGeneration.KMeansClusteringAlgorithm">
+    <Position X="13.5" Y="0.5" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="PredictionApp.Presentation.Console.DataGeneration.KMeansClusteringAlgorithm.Centroid">
+        <TypeIdentifier>
+          <NewMemberFileName>Algorithms\KMeansClusteringAlgorithm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Algorithms\KMeansClusteringAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Presentation.Console.DataGeneration.CustomerManager">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>BIAAAIACAAAAAAQAAAABBAAIACEAABAAAEAAAAAAAYA=</HashCode>
+      <FileName>Managers\CustomerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Presentation.Console.DataGeneration.MenuManager">
+    <Position X="9" Y="4.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIQAAAAAABACACAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\MenuManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Presentation.Console.DataGeneration.ProductManager">
+    <Position X="4.75" Y="4.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>QEAECAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\ProductManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Presentation.Console.DataGeneration.RestaurantManager">
+    <Position X="9" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAgIAAAgCIIAIAAAAAAAACCEEAAAA=</HashCode>
+      <FileName>Managers\RestaurantManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Presentation.Console.DataGeneration.StockManager">
+    <Position X="5" Y="0.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAUBAAAIAAAAAAAAAgAAAAgAAAAAAAAAAAAABQA=</HashCode>
+      <FileName>Managers\StockManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Presentation.Console.DataGeneration.SupplierManager">
+    <Position X="0.5" Y="5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAEAAAgAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\SupplierManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredictionApp.Common.Constants" Collapsed="true">
+    <Position X="0.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PredictionApp.Common.Extension.DoubleExtensions" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PredictionApp.Common.Helpers.RandomHelper" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

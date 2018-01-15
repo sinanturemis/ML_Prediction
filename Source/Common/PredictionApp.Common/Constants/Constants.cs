@@ -62,7 +62,10 @@
             public const int Min = 1;
             public const int Max = 5;
         }
-
-        public const int MaxTableCountInRestaurant = 9;
+        public static class TableCountInRestaurant
+        {
+            public const int Min = 1;
+            public const int Max = 9;
+        }
     }
 }
