@@ -16,21 +16,27 @@ Prediction Application for Restaurants.
 ## Diagrams
 
 ### Db Design Diagram
+
 ![Database_Design](SolutionItems/DatabaseDesign/Database_Design.jpg)
 
 ### Solution Diagram
-![Solution Diagram](SolutionItems/SolutionDiagram/Solution.jpg)
+
+![Solution Diagram](SolutionItems/SolutionDiagram/Solution.png)
 
 ### Class Diagrams
 
-**Business_Managers**
+#### Business_Managers
+<br />
 ![Business_Managers](SolutionItems/ClassDiagrams/Business_Managers.png)
 
-**DataAccess_Repository**
+#### DataAccess_Repository
+<br />
 ![DataAccess_Repository](SolutionItems/ClassDiagrams/DataAccess_Repository.png)
 
-**DataAccess_Entities**
+#### DataAccess_Entities
+<br />
 ![DataAccess_Entities](SolutionItems/ClassDiagrams/DataAccess_Entities.png)
 
-**Common_Project**
+#### Common_Project
+<br />
 ![Common_Project](SolutionItems/ClassDiagrams/Common_Project.png)
